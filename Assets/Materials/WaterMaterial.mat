@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WaterMaterial
+  m_Shader: {fileID: 4800000, guid: 79f0fe2a745c02c418c5da73796aa108, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AmbientIntensity: 0.1
+    - _AmbientReflectivity: 0.2
+    - _Amplitude: 1.19
+    - _Amplitude1: 3
+    - _Amplitude2: 0.68
+    - _AmplitudeFactor: 0.86
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DiffuseIntensity: 0.29
+    - _DiffuseReflectivity: 0.6
+    - _Direction: -0.64
+    - _Direction1: 2.51
+    - _Direction2: -0.22
+    - _DirectionX: 1.4
+    - _DirectionY: 1.38
+    - _Drag: 7
+    - _DstBlend: 0
+    - _Frequency: 2.88
+    - _Frequency1: 2
+    - _Frequency2: 4.27
+    - _FrequencyFactor: 1.17
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _NoiseIterations: 24
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SharpnessFactor: 0.965
+    - _SmoothnessTextureChannel: 0
+    - _SpecularFactor: 250
+    - _SpecularHighlights: 1
+    - _SpecularIntensity: 0.1
+    - _SpecularReflectivity: 0.5
+    - _Speed: 3.93
+    - _Speed1: 1
+    - _Speed2: 3
+    - _SpeedFactor: 1.12
+    - _SrcBlend: 1
+    - _StartingAmp: 0.13
+    - _StartingDir: 3.81
+    - _StartingFreq: 1
+    - _StartingSharpness: 2.9
+    - _StartingSpeed: 0.7
+    - _SunAngle: 0
+    - _SunHeight: 0.28
+    - _SunIntensity: 1
+    - _Test: 5
+    - _UVSec: 0
+    - _WaveAngle: 0
+    - _WaveAngleChange: 7.2
+    - _Wobble: 4
+    - _ZWrite: 1
+    m_Colors:
+    - _AmbientColour: {r: 0.06412425, g: 0.070671834, b: 0.103773594, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DiffuseColour: {r: 0.1689213, g: 0.32012615, b: 0.49056602, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _LightColour: {r: 1, g: 0.9312893, b: 0.5518868, a: 1}
+    - _SpecularColour: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

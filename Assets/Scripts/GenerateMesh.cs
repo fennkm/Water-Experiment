@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 using UnityEditor;
 
@@ -12,8 +13,10 @@ public class GenerateMesh : MonoBehaviour
     {
         Mesh mesh = new Mesh();
 
-        int size = 200;
-        float len = 100f;
+        mesh.indexFormat = IndexFormat.UInt32;
+
+        int size = 2000;
+        float len = 1000f;
 
         Vector3[] verts = new Vector3[size * size];
 
@@ -63,8 +66,8 @@ public class GenerateMesh : MonoBehaviour
 
         // string path = EditorUtility.SaveFilePanel("Save Separate Mesh Asset", "Assets/", "WaterBase", "asset");
         // path = FileUtil.GetProjectRelativePath(path);
-        AssetDatabase.CreateAsset(mesh, "Assets/Models/WaterBase.asset");
-		AssetDatabase.SaveAssets();
+        // AssetDatabase.CreateAsset(mesh, "Assets/Models/WaterBase.asset");
+		// AssetDatabase.SaveAssets();
     }
 
     // Update is called once per frame

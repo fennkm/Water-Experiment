@@ -1,4 +1,4 @@
-![alt text](https://github.com/Wil-KM/Water-Experiment/blob/main/Thumbnail.PNG?raw=true)
+![alt text](https://github.com/fennkm/Water-Experiment/blob/main/Thumbnail.PNG?raw=true)
 
 Got inspired to do some low-level shader work to create some realistic water!
 

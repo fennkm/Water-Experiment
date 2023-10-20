@@ -1,4 +1,5 @@
 Aug 2023
+
 Personal Project - Missing complete documentation
 
 A proof of concept consolidating a few useful techniques when it comes to procedurally simulating ocean waves.
